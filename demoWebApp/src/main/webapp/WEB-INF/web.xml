@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginVerify</servlet-name>
+  	<display-name>LoginVerify</display-name>
+  	<description></description>
+  	<servlet-class>fr.insa.LoginVerify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginVerify</servlet-name>
+  	<url-pattern>/LoginVerify</url-pattern>
+  </servlet-mapping>
 </web-app>
